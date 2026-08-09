@@ -106,3 +106,7 @@ let b=10;
 console.log(b);   //10    
 
 // and also same for "Const"
+
+//console.log(z);    //Error: Cannot access 'z' before initialization
+const z=100;
+console.log(z);
