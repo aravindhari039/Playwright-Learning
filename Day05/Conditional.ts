@@ -61,7 +61,7 @@ else
 
 */
 
-/* 
+ 
 let mark:number=95;
 
 if (mark>=90 && mark<=100) {
@@ -88,9 +88,9 @@ if (mark>=90 && mark<=100) {
 
     console.log("Invalid")
 
-} */
+} 
 
-/* 
+ 
 let browser:string="edge";
 
 if(browser==="chrome"){
@@ -104,7 +104,7 @@ else if(browser==="edge"){
 else{
 
     console.log("Other Browser");
-} */
+} 
 
 // switch case statement     <------------
 
@@ -129,7 +129,7 @@ default: statements
 
 */
 
-/* 
+ 
 let day:number=1;
 
 switch(day)
@@ -144,7 +144,7 @@ switch(day)
         console.log("guava")
         break;
 }
- */
+ 
 
 /* 
 let a=10, b=5;
