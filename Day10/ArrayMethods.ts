@@ -71,21 +71,21 @@ console.log("after splice",fruits)      //[ 'apple', 'banana', 'mango', 'cherry'
 //syntax : array.indexOf(searchElement) or array.indexOf(searchElement,StartingIndex)
  
 let fruits:string[]=["apple","banana","mango","grapes","orange"]
-/* 
+ 
 let index=fruits.indexOf("grapes")
 console.log("index of grapes",index)     // 3
 
 console.log("index of kiwi",fruits.indexOf("kiwi"))    // -1
 
-console.log("index of grapes from index 2",fruits.indexOf("grapes",2))    // 3 */
+console.log("index of grapes from index 2",fruits.indexOf("grapes",2))    // 3 
 
 //9.includes() - check whether an element is present in an array or not    -- return boolean value
 //syntax : array.includes(searchElement) or array.includes(searchElement,StartingIndex)
- /* 
+  
 console.log("is mango present",fruits.includes("mango"))    // true
 console.log("is kiwi present",fruits.includes("kiwi"))      // false
 console.log("is grapes present from index 4",fruits.includes("grapes",4))    // false
-console.log("is grpaes present from index 2",fruits.includes("grapes",2))    // true */
+console.log("is grpaes present from index 2",fruits.includes("grapes",2))    // true 
 
 //10.toString() - convert an array to string
 //syntax : array.toString()
