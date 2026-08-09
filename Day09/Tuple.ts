@@ -2,6 +2,8 @@
 // Tuple is fixed length array where each element is specific type
 // To store different types of data together
 
+export{}
+
 // 1. Tuple with 2 values of string, number
 /* 
 let person:[string,number]=["john",3]

@@ -37,39 +37,40 @@ console.log(name) */
 let name:Array<string>=["john","scott","james"]
 
 console.log(name) */
-/* 
+ 
 let data:Array<number|string>=[1,"john",2,3,"scott"]
-console.log(data) */
+console.log(data) 
+
 
 let mix:Array<any>=["hari",2,3,true,null]
 //console.log(mix[2])
-/* 
+ 
 for(let i=0; i<mix.length; i++)
 {
     console.log(mix[i])
-} */
+} 
 
 // Iterating using the "for ... in " loop(index)
-/* 
+ 
 for(let i in mix)
 {
     console.log(mix[i])
-} */
+} 
 
 
-/* // Iterating using the "for ... of " loop(values)
+ // Iterating using the "for ... of " loop(values)
 
 for(let value of mix)     // "value " is a like variale we can give whatever
 {
     console.log(value)
 }
- */
+ 
 
 // passing an array to the function 
 
 // search the element
 
-/* 
+ 
 function check(a:number, b:number[]):boolean
 {
     for(let i in b){
@@ -83,7 +84,7 @@ function check(a:number, b:number[]):boolean
 let b:number[]=[10,20,30,40]
 
 console.log(check(50,b))
-console.log(check(20,b)) */
+console.log(check(20,b)) 
 
 // function takes array and return array
 
@@ -102,4 +103,4 @@ function display(arr:string[]):string[]
 
 let words:string[]=["a","c","D","world","TYPEscript"]
 
-console.log(display(words))
+console.log(display(words));
