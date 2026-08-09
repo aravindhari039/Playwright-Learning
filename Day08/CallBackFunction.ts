@@ -4,6 +4,8 @@
 
 // this function takes the parameter of callback function 
 
+export{}
+
 /* 
 function greet(name:string, callback:(sss:string)=>void)
 {
