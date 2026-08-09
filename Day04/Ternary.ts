@@ -6,7 +6,7 @@
 
 //Example 1
 
-/* 
+ 
 export{}
 
 let a=100, b=200;
@@ -18,4 +18,4 @@ let age=20;
 
 let res1=(age>18)? "eligible":"Not Eligible";
 console.log(res1);    //eligible
- */
+ 
