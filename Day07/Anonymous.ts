@@ -27,10 +27,10 @@ console.log(msg())
 
 // Anonymous Function with paremeters       <----------------
 
-/* 
+ 
 let mul=function(x:number,y:number):number
 {
     return x*y;
 }
 
-console.log(mul(2,3)); */
+console.log(mul(2,3)); 

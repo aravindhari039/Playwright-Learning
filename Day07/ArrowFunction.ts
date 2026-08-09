@@ -81,4 +81,4 @@ let elements = (...data:(number | string)[]):number =>       // <---------- Rest
     return data.length;
 }
 
-console.log(elements(1,"scott", 2, 23, "john"));
+console.log(elements(1,"scott", 2, 23, "john"));  

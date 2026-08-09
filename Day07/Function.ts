@@ -59,7 +59,7 @@ function elements(...data:(number | string)[]):number        <---------- multipl
 console.log(elements(1,"scott", 2, 23, "john")); */
 
 /* 
-fction details(id:number, name:string, email?:string):void       <------------optional parameter
+function details(id:number, name:string, email?:string):void       <------------optional parameter
 {
     console.log("ID :",id);
     console.log("Name :",name);
