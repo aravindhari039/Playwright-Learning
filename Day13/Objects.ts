@@ -19,7 +19,6 @@
 //3. using type aliases (JS/TS)
 //4. using the classes (JS ES16/TS)
 
-export{}
 
 //1. using "object" type - Directly defines the value of variable (JS/TS)
 
