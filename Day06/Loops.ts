@@ -62,12 +62,12 @@ while(i>=1); */
 
 */
 
-/* 
+ 
 for(let i=1; i<=10; i++)
 {
     if(i%2==0)
         console.log(i);
-} */
+} 
 
 /* 
 let i:number;
@@ -88,7 +88,7 @@ console.log(i);    //6 */
 
 // break    <-------------------
 
-/* 
+ 
 let i=10;
 
 for(let i=1; i<=10; i++)
@@ -100,17 +100,17 @@ for(let i=1; i<=10; i++)
     console.log(i);
 }
 
-console.log(i); */
+console.log(i); 
 
 // continue     <---------------------
 
-/* 
+ 
 for(let i=1; i<=10; i++)
 {
     if(i==3 || i==5 || i==7)    
         continue;
     console.log(i);   // 1 2 4 6 8 9 10
-} */
+} 
 
 let names:String[]=["john","scott","hari","james"]
 
