@@ -18,7 +18,7 @@ interface
 Touple etc,. */
 //------------------------------------------------------------------------------
 // 1. Number Data Type
-/* 
+ 
 let age:number=25;
 let price =23.55;
 let ph=123456765;
@@ -27,7 +27,7 @@ console.log(age);
 console.log("Price:",price);
 console.log("Ph No:",ph);
 
-console.log(typeof(age));   // number -- It will show the type. */
+console.log(typeof(age));   // number -- It will show the type. 
 //--------------------------------------------------------------------------------
 // 2. String Data type
 
@@ -38,7 +38,7 @@ console.log(typeof(age));   // number -- It will show the type. */
 3. Backtick    ( ` ` )
 
 */
-/* 
+ 
 let first:String="Aravind";
 let last='Hari';
 
@@ -51,15 +51,15 @@ let msg=`hello ${first} ${last}`
 console.log(msg);      //  hello Aravind Hari 
 
 console.log(`hi ${greet} ${last}`)   //hi helo Hari
- */
+ 
 //--------------------------------------------------------------------
 
 // 3. Boolean Datatype
-/* 
+ 
 let isStudent:boolean=true;
 let hasjob:boolean=false;
 
-console.log("Is Student.?",isStudent); */
+console.log("Is Student.?",isStudent); 
 
 //---------------------------------------------------------------
 
@@ -78,7 +78,7 @@ console.log(price);     // undefined */
 
 //5. Any Datatype
 // it losses TypeScript Benefit
-/* 
+
 let value:any="Welcome";
 console.log(typeof(value));
 
@@ -88,12 +88,12 @@ console.log(typeof(value));
 value=true;
 console.log(typeof(value));
 
- */
+ 
 
 //---------------------------------------------------------------
 
 // 6. Union Type
-/* 
+ 
 let id:number | String | boolean;
 
 id="123abc";
@@ -103,7 +103,7 @@ id=12343;
 console.log(id);
 
 id=true;
-console.log(id); */
+console.log(id); 
 
 //---------------------------------------------------------------
 
@@ -116,7 +116,7 @@ function msg(){
 }
 
 msg(); */
-/* 
+ 
 function sum(x:number,y:number):number //----> return type
 {
     return(x+y);
@@ -124,4 +124,4 @@ function sum(x:number,y:number):number //----> return type
 
 //let res=sum(2,3);
 //console.log(res); 
-console.log(sum(2,4)); */
+console.log(sum(2,4)); 
